@@ -17,11 +17,12 @@ p {
   line-height: 32px;
   margin-top: 0px;
 }
+.container {
+  background-color: #ffcd9e;
+}
 .main_container {
   display: flex;
-  /* height:78vh; */
   justify-content: center;
-  background-color: #ffcd9e;
   flex-direction: column;
   padding: 1em;
 }
@@ -109,17 +110,23 @@ ul {
   }
   .main_container {
     flex-direction: row;
+    max-width: 1000px;
+    margin: auto;
+  }
+  .container {
+    padding: 2em;
   }
   .left_container {
-    text-align: start;
+    width: 55%;
   }
-  .left_container,
+
   .right_container {
     width: 45%;
   }
   #para2 {
     width: 100%;
     margin: 2em auto;
+    text-align: start;
   }
   .btn {
     align-items: center;
@@ -132,7 +139,16 @@ ul {
     max-width: 200px;
     padding: 0.3em;
   }
+  #para1 {
+    text-align: start;
+  }
   #para3 {
     width: 100%;
+    text-align: start;
+    font-size: 1rem;
+  }
+  .left_container h2 {
+    font-size: 2em;
+    text-align: start;
   }
 }
